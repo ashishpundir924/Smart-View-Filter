@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>Smart View Filter</Name>
+    <Assembly>SmartViewFilter.Revit.dll</Assembly>
+    <AddInId>8D83C886-B739-4ACD-A9DB-3D1E3B6D1F11</AddInId>
+    <FullClassName>SmartViewFilter.Revit.App</FullClassName>
+    <VendorId>ASHP</VendorId>
+    <VendorDescription>CAD Automation by Ashish</VendorDescription>
+  </AddIn>
+</RevitAddIns>

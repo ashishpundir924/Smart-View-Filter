@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationPackage
+  SchemaVersion="1.0"
+  AutodeskProduct="Revit"
+  ProductType="Application"
+  Name="Smart View Filter"
+  Description="Smart selection and rule-based live filtering for Revit elements."
+  AppVersion="2.0.0"
+  FriendlyVersion="2.0.0"
+  SupportedLocales="Enu">
+  <CompanyDetails
+    Name="CAD Automation by Ashish"
+    Phone=""
+    Url="https://github.com/ashishpundir924/magic-filter"
+    Email="your-email@example.com" />
+  <Components Description="Smart View Filter for Revit 2022">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2022" SeriesMax="R2022" />
+    <ComponentEntry
+      AppName="Smart View Filter"
+      Version="2.0.0"
+      ModuleName="./Contents/2022/SmartViewFilter.addin" />
+  </Components>
+  <Components Description="Smart View Filter for Revit 2023">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2023" SeriesMax="R2023" />
+    <ComponentEntry
+      AppName="Smart View Filter"
+      Version="2.0.0"
+      ModuleName="./Contents/2023/SmartViewFilter.addin" />
+  </Components>
+  <Components Description="Smart View Filter for Revit 2026">
+    <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2026" SeriesMax="R2026" />
+    <ComponentEntry
+      AppName="Smart View Filter"
+      Version="2.0.0"
+      ModuleName="./Contents/2026/SmartViewFilter.addin" />
+  </Components>
+</ApplicationPackage>
