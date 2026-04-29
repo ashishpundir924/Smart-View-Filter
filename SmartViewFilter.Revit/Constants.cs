@@ -1,4 +1,4 @@
-﻿namespace SmartViewFilter.Revit
+namespace SmartViewFilter.Revit
 {
     internal static class Constants
     {

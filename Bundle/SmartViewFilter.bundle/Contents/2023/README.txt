@@ -1,4 +1,4 @@
-﻿Smart View Filter
+Smart View Filter
 Version: 2.0.0
 Target: Autodesk Revit 2022, 2023, and 2026
 
