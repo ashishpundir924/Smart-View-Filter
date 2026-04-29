@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ApplicationPackage
   SchemaVersion="1.0"
   AutodeskProduct="Revit"
@@ -11,7 +11,7 @@
   <CompanyDetails
     Name="CAD Automation by Ashish"
     Phone=""
-    Url="https://github.com/ashishpundir924/magic-filter"
+    Url="https://github.com/ashishpundir924/Smart-View-Filter"
     Email="your-email@example.com" />
   <Components Description="Smart View Filter for Revit 2022">
     <RuntimeRequirements OS="Win64" Platform="Revit" SeriesMin="R2022" SeriesMax="R2022" />
@@ -35,3 +35,4 @@
       ModuleName="./Contents/2026/SmartViewFilter.addin" />
   </Components>
 </ApplicationPackage>
+

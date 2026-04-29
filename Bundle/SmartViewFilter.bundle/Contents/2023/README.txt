@@ -1,4 +1,4 @@
-Smart View Filter
+﻿Smart View Filter
 Version: 2.0.0
 Target: Autodesk Revit 2022, 2023, and 2026
 
@@ -46,4 +46,5 @@ Update this section with your support email before publishing.
 
 Privacy Policy
 See PRIVACY_POLICY.txt in this package, or use:
-https://github.com/ashishpundir924/magic-filter/blob/main/PRIVACY_POLICY.md
+https://github.com/ashishpundir924/Smart-View-Filter/blob/main/PRIVACY_POLICY.md
+
