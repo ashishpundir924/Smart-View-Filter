@@ -31,6 +31,11 @@ foreach ($version in $versions) {
     Copy-Item (Join-Path $sourceBundle "Contents\2023\PRIVACY_POLICY.txt") (Join-Path $contents "PRIVACY_POLICY.txt")
     Copy-Item (Join-Path $sourceBundle "Contents\2023\icon.png") (Join-Path $contents "icon.png")
     Copy-Item (Join-Path $projectOutput "SmartViewFilter.Revit.dll") (Join-Path $contents "SmartViewFilter.Revit.dll")
+
+    $depsFile = Join-Path $projectOutput "SmartViewFilter.Revit.deps.json"
+    if (Test-Path $depsFile) {
+        Copy-Item $depsFile (Join-Path $contents "SmartViewFilter.Revit.deps.json")
+    }
 }
 
 Compress-Archive -Path $workingBundle -DestinationPath $zipPath -Force

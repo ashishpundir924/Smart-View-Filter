@@ -3,6 +3,7 @@ obj/
 build/
 dist/*
 !dist/*.zip
+!dist/*.exe
 *.pdb
 *.user
 *.suo

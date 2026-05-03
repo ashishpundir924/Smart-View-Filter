@@ -13,6 +13,7 @@ Supported Revit versions: `2022`, `2023`, `2026`
 - `SmartViewFilter.sln`
 - `SmartViewFilter.Revit/`
 - `Bundle/SmartViewFilter.bundle/`
+- `SmartViewFilter.Installer/`
 - `tools/Create-AutodeskPackage.ps1`
 
 ## Build
@@ -80,6 +81,16 @@ Run this from the repository root after building:
 The script creates:
 
 `dist\SmartViewFilter.bundle.zip`
+
+To create a test installer EXE, run:
+
+```powershell
+.\tools\Create-Installer.ps1
+```
+
+The script creates:
+
+`dist\SmartViewFilter.Installer.exe`
 
 Before publishing, edit `Bundle\SmartViewFilter.bundle\PackageContents.xml` and replace `your-email@example.com` with your real support email. Also confirm the privacy policy URL is hosted and accessible.
 
